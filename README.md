@@ -3,7 +3,7 @@
 ## Prerequisites
 
 - NetworkManager
-- Enable the NetworkManager-dispatcher.service (if using systemd)
+- Enable the NetworkManager-dispatcher.service (if using systemd run `# systemctl enable --now NetworkManager-dispatcher.service`)
 - wireless-tools (<a href="https://archlinux.org/packages/extra/x86_64/wireless_tools/">Arch Linux Package</a>)
 
 ## Setup
