@@ -10,7 +10,10 @@
 
 - This is only for devices using NetworkManager
 - Place the above file in the `/etc/NetworkManager/dispatcher.d/` folder
-  Make sure to replace <your_username> with your wifi username and <your_password> with your wifi password and replace the special characters in your password with their respective <a href="https://w3schools.com/tags/ref_urlencode.ASP">URL Encoding</a>
+  - Replace:
+    - <your_username>: Your WiFi Username
+    - <your_password>: Your WiFi Password (replace the special characters with their <a href="https://www.w3schools.com/tags/ref_urlencode.ASP">URL Encoding</a>)
+    - <your_interface>: Your WiFi interface (`$ ip addr`)
 - Change the ownership of the file to root (Required otherwise NetworkManager dispatcher won't run the script)
   <br>`# chown root:root 10-wifi_auto_login.sh`
 - Make the file executable
