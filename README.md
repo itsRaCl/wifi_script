@@ -9,7 +9,7 @@
 ## Setup
 
 - This is only for devices using NetworkManager
-- Place the above file in the `/etc/NetworkManager/dispatcher.d/` folder
+- Place the `10-wifi_auto_login.sh` file in the `/etc/NetworkManager/dispatcher.d/` folder
   - Replace:
     - <your_username>: Your WiFi Username
     - <your_password>: Your WiFi Password (replace the special characters with their <a href="https://www.w3schools.com/tags/ref_urlencode.ASP">URL Encoding</a>)
